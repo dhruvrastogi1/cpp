@@ -72,7 +72,7 @@ setbkcolor(op);
 cout<<"#include<iostream.h>"<<endl;
 cout<<"#include<conio.h>"<<endl;
 cout<<"void main()"<<endl;
-cout<<"{"<<endl<<"int num;"<<endl<<"cout<<\"enter any number\”;”<<endl";                         cout<<"cin>>num;"<<endl<<cout<<"if((num%2)==0)"<<endl<<"cout<<\"number is even\";"<<endl;                               cout<<"else"<<endl<<"cout<<\"number is odd\";"<<endl<<"}";
+cout<<"{"<<endl<<"int num;"<<endl<<"cout<<\"enter any number\â€;â€<<endl";                         cout<<"cin>>num;"<<endl<<cout<<"if((num%2)==0)"<<endl<<"cout<<\"number is even\";"<<endl;                               cout<<"else"<<endl<<"cout<<\"number is odd\";"<<endl<<"}";
 getch();
 cout<<"\n\n\npress 1 to run program ";
  cin>>hehe;
@@ -430,7 +430,7 @@ cout<<"\n\n\npress 1 to run program  ";
 if(e==2)
 {op=rand() %10;
 setbkcolor(op);
-cout<<"#include <iostream.h>\n#include <conio.h>\n// Linear search function\nvoid linearSearch(int Num[11], int N, int SearchVal)\n {\nint ctr = 0, pos = -1;\nwhile (ctr <= N)\n {\nif (Num[ctr] == SearchVal)\n {\npos = ctr + 1;\nbreak;	// Terminate the loop\n}\nelse\nctr = ctr + 1;\n}\nif (pos >= 0)\ncout << \"The search value \" << SearchVal << \"’s position is: \" << pos;\nelse\ncout << \"The search value does not found\";\n}\nmain()\n{\n";
+cout<<"#include <iostream.h>\n#include <conio.h>\n// Linear search function\nvoid linearSearch(int Num[11], int N, int SearchVal)\n {\nint ctr = 0, pos = -1;\nwhile (ctr <= N)\n {\nif (Num[ctr] == SearchVal)\n {\npos = ctr + 1;\nbreak;	// Terminate the loop\n}\nelse\nctr = ctr + 1;\n}\nif (pos >= 0)\ncout << \"The search value \" << SearchVal << \"â€™s position is: \" << pos;\nelse\ncout << \"The search value does not found\";\n}\nmain()\n{\n";
 getch();
 cleardevice();
 gotoxy(1,1);
@@ -501,7 +501,7 @@ gotoxy(1,11);
 if(f==1)
 {op=rand() %10;
 setbkcolor(op);
-cout<<"#include <iostream.h>\n#include <conio.h>\n#include <ctype.h>\n#include <stdio.h>\nvoid main()\n {\nchar str[80];\nint i, vc= 0, dc = 0, ot = 0;\nclrscr();\ncout << \"\\n\\tEnter any string –> \";\ngets(str);\ni = 0;\nwhile (str[i] != \'\\0\')\n {\nstr[i] = tolower(str[i]);\nif (((str[i] == \'a\')) || ((str[i] == \'e\')) || ((str[i] == \'o\')) || ((str[i] == \'u\')))\nvc++;\nelse\nif ((str[i] >= \'0\') && (str[i] <= \'9\'))\ndc++;\nelse\not++;\ni++;\n}\ncout << \"\\n\\tNumber of vowels are : \" << vc;\ncout << \"\\n\\tNumber of digits are : \" << dc;\ncout <<\"\\n\\tNumber of other characters are : \" << ot;\n}";
+cout<<"#include <iostream.h>\n#include <conio.h>\n#include <ctype.h>\n#include <stdio.h>\nvoid main()\n {\nchar str[80];\nint i, vc= 0, dc = 0, ot = 0;\nclrscr();\ncout << \"\\n\\tEnter any string â€“> \";\ngets(str);\ni = 0;\nwhile (str[i] != \'\\0\')\n {\nstr[i] = tolower(str[i]);\nif (((str[i] == \'a\')) || ((str[i] == \'e\')) || ((str[i] == \'o\')) || ((str[i] == \'u\')))\nvc++;\nelse\nif ((str[i] >= \'0\') && (str[i] <= \'9\'))\ndc++;\nelse\not++;\ni++;\n}\ncout << \"\\n\\tNumber of vowels are : \" << vc;\ncout << \"\\n\\tNumber of digits are : \" << dc;\ncout <<\"\\n\\tNumber of other characters are : \" << ot;\n}";
 cout<<"\n\n\npress 1 to run program  ";
  cin>>hehe;
  if(hehe==1)
